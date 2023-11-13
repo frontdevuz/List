@@ -29,6 +29,7 @@ export default function App() {
   Telefoni raqami: ${number}\n
   Qo'shimcha telefon raqami: ${partnumber}\n
   Yozilgan kursi: ${insterest}\n
+  Qo'shimcha ma'lumot: ${main}\n
    {@izzatillodev} sizga xabar yuborildi !`;
   const url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${ChanelID}&text=${encodeURI(
     DATA
