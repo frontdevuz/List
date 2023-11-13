@@ -22,12 +22,8 @@ export default function App() {
   const [partnumber, setPartNumber] = useState("");
   const [insterest, setInterest] = useState("");
   const [main, setMain] = useState("");
-  const [front, setFront] = useState("");
-  const [foundation, setFoundation] = useState("");
-  const [english, setEnglish] = useState("");
-  const [russian, setRussian] = useState("");
-  const botToken = "6940575340:AAEiKqCQJhsOetORkIEbukcQ0hsPHeKPaXI";
-  const ChanelID = "-1002020132174";
+  const botToken = "6725101800:AAGTAEg2cYWzx8pvMouaORPitRhBWDh3ntM";
+  const ChanelID = "-1002013242551";
   let DATA = `O'quvchi: \n
   Ismi Familiyasi: ${name}\n
   Telefoni raqami: ${number}\n
