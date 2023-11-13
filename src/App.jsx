@@ -127,7 +127,7 @@ export default function App() {
               ></FormTextarea>
             </FormInputBox>
             <FormInputBox>
-              <FormButton type="submit" onClick={sendMessage}>
+              <FormButton type="submit" onClick={sendMessage} required>
                 Jo'natish
               </FormButton>
             </FormInputBox>
